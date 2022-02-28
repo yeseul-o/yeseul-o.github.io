@@ -1,0 +1,105 @@
+<!doctype html>
+      <html>
+        <head>
+          <style>
+            body {
+             color:black;
+             background-color:black;
+             text-shadow: 1px 3px 20px white;
+             border: 0px solid black;
+             width: 900px;
+             left: 10px;
+             top: 10px;
+             font-size: 20px;
+             line-height: 60px;
+             font-family: Heebo, sans-serif;
+             text-transform: uppercase;
+
+             text-align: center;
+
+             cursor:crosshair;
+           }
+
+            #gn {
+             position: absolute;
+             color:blue;
+             text-shadow: 1px 3px 10px blue;
+             border: 0px solid black;
+             width: 600px;
+             left: 100px;
+             top: 100px;
+             font-size: 50px;
+             font-family: Neonderthaw, sans-serif;
+             text-align: center;
+             z-index: 10;
+           }
+
+           #pill {
+             color: yellow;
+             font-size: 20px;
+             position: absolute;
+             /* z-index:20; */
+           }
+
+           #backtoindex:link{
+             color:black;
+           }
+
+           #backtoindex:hover{
+             color:white;
+             text-shadow: 0px 0px 2px white;
+           }
+
+           #backtoindex:visited{
+             color:black;
+           }
+
+           #backtoindex {
+            cursor:help;
+          }
+
+          #giphy {
+            display: none;
+          }
+
+
+            iframe {
+                    position: fixed;
+                    width: 20vw;
+                    top: 500px;
+                    right: 60vw;
+                    border-radius: 0px 0px 0px 0px;
+
+                  }
+
+              #jerry{
+               position: fixed;
+               /* display: none; */
+               top: 210px;
+               right:200px;
+               width: 400px;
+               opacity: .9;
+               /* z-index:10; */
+               /* border-radius: 0px 200px 200px 0px; */
+             }
+
+          </style>
+
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+          <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+          <script src="first.js"></script>
+
+        </head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@900&family=Neonderthaw&family=Noto+Serif+Display:wght@200&family=Outfit:wght@100&family=Rubik+Beastly&display=swap" rel="stylesheet">
+        <body>
+          <a id=backtoindex href=index.html>Back to work</a>
+          <div id=gn>Good night! But I can't sleep.</div>
+          <div id=pill>Sleep pill</div>
+
+          <!-- <iframe id=gif src="https://giphy.com/embed/ReycznqpTfwuwefOl4"></iframe> -->
+
+          <img id=jerry src="sleep.jpeg">
+        </body>
+      </html>
